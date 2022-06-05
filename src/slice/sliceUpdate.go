@@ -3,9 +3,9 @@ package main
 import "fmt"
 
 func main() {
-	s := [5]struct {
+	s := make([]struct {
 		x int
-	}{}
+	}, 10)
 
 	d := s[:]
 

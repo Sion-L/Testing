@@ -4,7 +4,7 @@ import "fmt"
 
 func main() {
 
-	// append 可为slice添加slice和元素
+	// append 可为slice添加slice和元素,添加多个加...
 	a := []int{1, 2, 3}
 	b := []int{4, 5}
 	c := append(a, b...)
